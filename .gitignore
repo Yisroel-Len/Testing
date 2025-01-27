@@ -1,0 +1,11 @@
+# Ignore any folder named .ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore any folder containing the word "data" in the name
+**/*data*/
+
+# Ignore any folder named envs
+**/envs/
+
+# Ignore Python files with "secret" in the name
+*secret*.py
